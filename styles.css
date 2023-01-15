@@ -1,0 +1,97 @@
+
+.body{
+  width: 100%;
+  min-height:600px;
+  /* background-color: aqua; */
+  display: flex;
+}
+.body>div{
+  width: 85vw;
+  min-height: 600px;
+  margin: 1px;
+  /* background-color: rgb(226, 137, 43); */
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.body>:last-child{
+width: 17%;
+background-color: aqua;
+}
+.body>div>div{
+  width: 20vw;
+  height: 700px;
+  /* margin: 1px; */
+  /* background-color: rgb(191, 199, 190); */
+  margin: 4px;
+}
+.body2{
+  padding: 5px;
+  width: 100%;
+  min-height:100px;
+  background-color: rgb(249, 249, 247);
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.body2>div{
+
+  width: 130px;
+  height: 130px;
+  margin: 1px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 50%;
+  /* margin: px; */
+  box-shadow: 0px 1px 7px 5px rgb(104, 103, 103);
+}
+
+
+
+
+.body3{
+  padding: 5px;
+  width: 100%;
+  min-height:600px;
+  /* background-color: rgb(38, 255, 0); */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.body3>div{
+  box-sizing:border-box;
+  /* margin: 5px; */
+  width: 19%;
+  height: 380px;
+  margin: 4px;
+  background-color: rgb(226, 43, 192);
+}
+.body_div{
+  box-sizing: border-box;
+  background-color: rgb(251, 251, 251);
+  color: aqua;
+  box-shadow: 30px 0px 50px 10px rgb(210, 206, 206);
+  padding: 5px;
+  border: 3px solid  rgb(251, 251, 251);
+  
+}
+.body_div:hover{
+  transition: .5s;
+  box-shadow: 20px 20px 20px 30px rgb(245, 243, 243);
+  /* border-radius: 5px; */
+  border: 3px solid aqua;
+ 
+
+}
+
+
+.body_div>h2{
+  margin: 0px;
+  padding: 2px;
+  /* display: inline-block; */
+  background-color: rgb(8, 100, 249);
+  color: white;
+  text-align: center;
+  /* width:50% ; */
+}
